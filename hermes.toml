@@ -5,5 +5,5 @@ sources = [ "cff",]
 target = "invenio_rdm"
 
 [deposit.invenio_rdm]
-site_url = "https://zenodo.org/"
+site_url = "https://atlastest.pnnl.gov/"
 access_right = "open"
