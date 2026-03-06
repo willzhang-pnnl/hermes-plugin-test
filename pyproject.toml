@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=70.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-plugin-test"
+version = "0.1.0"
+description = "A test project for the HERMES plugin for metadata publication"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Will Zhang", email = "will.zhang@pnnl.gov" },
+]
+keywords = ["hermes", "metadata", "publication", "testing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/willzhang-pnnl/hermes-plugin-test"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "hermes>=0.8.0",
+    "hermes-plugin-python>=0.1.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]

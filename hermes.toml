@@ -1,0 +1,15 @@
+[harvest]
+sources = ["cff", "toml"]
+
+[harvest.cff]
+enable_validation = false
+
+[harvest.toml]
+filename = "pyproject.toml"
+
+[deposit]
+target = "invenio_rdm"
+
+[deposit.invenio_rdm]
+site_url = "https://sandbox.zenodo.org"
+access_right = "open"
