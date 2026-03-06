@@ -21,3 +21,4 @@ htmlcov/
 
 # HERMES cache
 .hermes/
+hermes.log
