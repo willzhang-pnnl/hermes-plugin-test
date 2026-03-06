@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: test hermes
+message: 'yes'
+type: software
+authors:
+  - name: pacific northwest national laboratory
+    address: 'yes'
+    city: 'yes'
+    post-code: '98195'
+    region: Washington
+    email: yes@yes.com
+    tel: '111111111'
+identifiers:
+  - type: url
+    value: >-
+      https://citation-file-format.github.io/cff-initializer-javascript/#/identifiers
+    description: asdf
+abstract: 'yes'
+keywords:
+  - 'yes'
+license: Aladdin
